@@ -47,7 +47,6 @@ if age >= 18:
         print("Please obtain a valid ID to vote.")
 else:
     print("You must be 18 or older to vote.")
- 
 #  - Write a program that takes the age of a person as input
 #  and determines whether they are a child (0-12 years),
 #  teenager (13-19 years), adult (20-59 years), or senior 
@@ -61,11 +60,11 @@ elif  ageperson >= 20 and ageperson <= 59:
   print("You are Adult")
 else :
   print("You are Senior Citizen")
-
-
-
-
-
 #  - Enter a month (as a number between 1 and 12). Print 
 # the number of days in that month. Assume a non-leap year.
 #  - Check if a year is a leap year or not.
+year = int(input("Enter a year: "))
+if year %4 ==0  :
+ print ("This is a leap year")
+else :
+   print("This is not a leap year")
