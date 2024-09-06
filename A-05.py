@@ -3,8 +3,6 @@
 #  - Positive, Negative, or Zero.
 #  - Whether it is divisible by both 2 and 3 or anyone of them or 
 #  not divisible by both check all the cases and print statement for each case.
-
-print("hello world")
 number = int(input("Enter a number: ")) 
     # Check if number is even or odd   
 if(number %2 == 0):
@@ -68,3 +66,4 @@ if year %4 ==0  :
  print ("This is a leap year")
 else :
    print("This is not a leap year")
+  
